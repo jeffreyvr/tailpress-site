@@ -1,4 +1,4 @@
-<?php require 'helpers.php'; ?><!DOCTYPE html>
+<?php require '../helpers.php'; ?><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
