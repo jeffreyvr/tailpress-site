@@ -9,9 +9,9 @@ function mix($path)
 
 function svg($path)
 {
-    if (! file_exists("resources/svgs/$path.php")) {
+    if (! file_exists("../resources/svgs/$path.php")) {
         return;
     }
 
-    include "svgs/$path.php";
+    include "../resources/svgs/$path.php";
 }
