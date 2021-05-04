@@ -1,0 +1,12 @@
+{
+  "name": "jeffreyvr/tailpress-site",
+  "description": "Website for TailPress.",
+  "homepage": "https://tailpress.io",
+  "authors": [
+    {
+      "name": "Jeffrey van Rossum",
+      "email": "jeffrey@vanrossum.dev",
+      "role": "Developer"
+    }
+  ]
+}

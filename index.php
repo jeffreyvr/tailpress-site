@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      TailPress - Rapidly build your WordPress theme with TaildindCSS and
-      Laravel Mix
+      TailPress - Rapidly build your WordPress theme with Tailwind CSS and Laravel Mix
     </title>
     <link href="<?php echo mix('/css/styles.css'); ?>" rel="stylesheet" />
   </head>
