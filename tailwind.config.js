@@ -2,7 +2,8 @@ module.exports = {
   mode: 'jit',
   purge: [
     './*.php',
-    './svgs/*.php'
+    './*/*.php',
+    './*/*/*.php'
   ],
   plugins: [require('@tailwindcss/aspect-ratio')],
   darkMode: false, // or 'media' or 'class'

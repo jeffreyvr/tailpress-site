@@ -3,7 +3,7 @@ let path = require('path');
 
 mix.setPublicPath(path.resolve('./'));
 
-mix.postCss("./resources/css/styles.css", "./css");
+mix.postCss("./resources/css/styles.css", "./public/css");
 
 mix.options({
     postCss: [
