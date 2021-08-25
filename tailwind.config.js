@@ -1,9 +1,9 @@
 module.exports = {
   mode: 'jit',
   purge: [
-    './*.php',
-    './*/*.php',
-    './*/*/*.php'
+    './helpers.php',
+    './public/*.php',
+    './resources/**/*.php'
   ],
   plugins: [require('@tailwindcss/aspect-ratio')],
   darkMode: false, // or 'media' or 'class'

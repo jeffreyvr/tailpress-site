@@ -1,7 +1,7 @@
 let mix = require('laravel-mix');
 let path = require('path');
 
-mix.setPublicPath(path.resolve('./'));
+mix.setPublicPath(path.resolve('./public/'));
 
 mix.postCss("./resources/css/styles.css", "./public/css");
 

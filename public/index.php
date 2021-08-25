@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> TailPress - Rapidly build your WordPress theme with Tailwind CSS and Laravel Mix</title>
+    <title>TailPress - Rapidly build your WordPress theme with Tailwind CSS and Laravel Mix</title>
     <meta name="description" content="TailPress is your go-to starting point for developing WordPress themes with Tailwind CSS and comes with basic block-editor support out of the box.">
     <link href="<?php echo mix('/css/styles.css'); ?>" rel="stylesheet" />
   </head>
@@ -12,7 +12,7 @@
     <div id="header">
       <div class="container mx-auto">
         <div class="border-b py-8 flex items-center justify-between">
-          <?php svg('logo'); ?>
+          <?php svg('logo-100'); ?>
           <h1 class="hidden">TailPress</h1>
           <a href="https://github.com/jeffreyvr/tailpress" class="bg-primary hover:bg-[#0e92cd] transition-colors duration-200 font-medium text-lg py-1 px-3 lg:text-xl lg:py-4 lg:px-8 rounded-lg text-white">View on Github</a>
         </div>
@@ -21,16 +21,16 @@
 
     <div id="introduction" class="py-16 lg:py-20">
       <div class="container mx-auto">
-        <h2 class="text-3xl lg:text-7xl tracking-tight font-extrabold my-4">
+        <h2 class="text-3xl lg:text-7xl tracking-tight font-extrabold my-4 lg:!leading-tight">
           Rapidly build your <a href="https://wordpress.org" class="border-b-2 mb-2 border-primary">WordPress</a> theme with
           <a href="https://tailwindcss.com" class="border-b-2 mb-2 border-primary">Tailwind CSS</a>
           and
           <a href="https://laravel-mix.com" class="border-b-2 mb-2 border-primary">Laravel Mix</a>.
         </h2>
 
-        <p class="max-w-screen-lg text-gray-700 text-xl lg:text-3xl leading-relaxed font-light mb-10">
+        <p class="max-w-screen-lg text-gray-700 text-xl lg:text-3xl lg:!leading-relaxed font-light my-10">
           TailPress is your go-to starting point for developing WordPress themes
-          with Tailwind CSS and comes with basic block-editor support out of the box.
+          with Tailwind CSS and comes with block-editor support out of the box.
         </p>
 
         <a href="#getting-started" class="bg-secondary hover:bg-[#129a8b] transition-colors duration-200 font-medium text-lg py-2 px-4 lg:text-xl lg:py-4 lg:px-8 rounded-lg text-white">Get started</a>
@@ -45,27 +45,23 @@
           <ul>
             <li class="relative flex mb-8 w-full">
               <div class="flex-shrink-0 rounded-full bg-white text-gray-500 flex items-center justify-center mr-4 h-12 w-12 text-lg lg:text-3xl lg:w-16 lg:h-16">1</div>
-              <div class="max-w-[80%]">Clone the repository <code class="break-words bg-gray-800 text-white px-8 py-4 rounded block mt-4">git clone https://github.com/jeffreyvr/tailpress.git && cd tailpress</code></div>
+              <div class="max-w-[80%]">Get the installer <code class="break-words bg-gray-800 text-white px-8 py-4 rounded block mt-4">composer global require jeffreyvanrossum/tailpress-installer</code></div>
             </li>
 
             <li class="relative flex mb-8">
               <div class="flex-shrink-0 rounded-full bg-white text-gray-500 flex items-center justify-center mr-4 h-12 w-12 text-lg lg:text-3xl lg:w-16 lg:h-16">2</div>
-              <div class="max-w-[80%]">Remove git from the repository <code class="bg-gray-800 text-white px-8 py-4 rounded block mt-4">rm -rf .git</code></div>
+              <div class="max-w-[80%]">Now simply run
+                <code class="bg-gray-800 text-white px-8 py-4 rounded block mt-4">tailpress new example-theme</code>
+                <div class="mt-4">To set your theme name and initialize a Git repository, use this instead</div>
+                <code class="bg-gray-800 text-white px-8 py-4 rounded block mt-4">tailpress new example-theme --name="Theme Name" --git</code>
+
+                <div class="mt-4 text-sm text-gray-600 underline"><a href="https://github.com/jeffreyvr/tailpress/#readme">More installation options.</a></div>
+              </div>
             </li>
 
-            <li class="relative flex mb-8">
+            <li class="flex-shrink-0 relative flex mb-8">
               <div class="flex-shrink-0 rounded-full bg-white text-gray-500 flex items-center justify-center mr-4 h-12 w-12 text-lg lg:text-3xl lg:w-16 lg:h-16">3</div>
-              <div class="max-w-[80%]">Install the NPM dependencies <code class="bg-gray-800 text-white px-8 py-4 rounded block mt-4">npm install</code></div>
-            </li>
-
-            <li class="flex-shrink-0 relative flex mb-8">
-              <div class="flex-shrink-0 rounded-full bg-white text-gray-500 flex items-center justify-center mr-4 h-12 w-12 text-lg lg:text-3xl lg:w-16 lg:h-16">4</div>
-              <div class="max-w-[80%]">Compile development the NPM dependencies <code class="bg-gray-800 text-white px-8 py-4 rounded block mt-4">npm run development</code></div>
-            </li>
-
-            <li class="flex-shrink-0 relative flex mb-8">
-              <div class="flex-shrink-0 rounded-full bg-white text-gray-500 flex items-center justify-center mr-4 h-12 w-12 text-lg lg:text-3xl lg:w-16 lg:h-16">5</div>
-              <div class="max-w-[80%]">Watch for changes <code class="bg-gray-800 text-white px-8 py-4 rounded block mt-4">npm run watch</code></div>
+              <div class="max-w-[80%]">Now go to the theme directory and watch for changes <code class="bg-gray-800 text-white px-8 py-4 rounded block mt-4">npx mix watch</code></div>
             </li>
           </ul>
         </div>
@@ -89,8 +85,8 @@
             <div class="px-8 pb-8 lg:pb-0">
               <h2 class="text-4xl lg:text-7xl tracking-tight font-extrabold mb-8">Supports the block editor.</h2>
               <div class="text-gray-600 leading-relaxed text-xl lg:pr-16">
-                <p class="max-w-4xl text-lg sm:text-2xl font-medium sm:leading-10 space-y-6 mb-6">TailPress comes with basic support for the block editor. CSS-classes for alignment, background and text colors will be generated automatically.</p>
-                <p>You can modify this within the tailwind.config.js file. To make the editing experience within the block editor more in line with the front end styling, a editor-style.css is generated. This file is only compiled on production builds.</p>
+                <p class="max-w-4xl text-lg sm:text-2xl font-medium sm:leading-10 space-y-6 mb-6">TailPress comes with support for the block editor. CSS-classes for alignment will be generated automatically.</p>
+                <p>You can modify this within the tailwind.config.js file. To make the editing experience within the block editor more in line with the front end styling, a editor-style.css is generated.</p>
               </div>
             </div>
           </div>
