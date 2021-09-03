@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TailPress - Rapidly build your WordPress theme with Tailwind CSS and Laravel Mix</title>
+    <title>TailPress - Rapidly build your WordPress theme with Tailwind CSS</title>
     <meta name="description" content="TailPress is your go-to starting point for developing WordPress themes with Tailwind CSS and comes with basic block-editor support out of the box.">
     <link href="<?php echo mix('/css/styles.css'); ?>" rel="stylesheet" />
   </head>
@@ -23,9 +23,7 @@
       <div class="container mx-auto">
         <h2 class="text-3xl lg:text-7xl tracking-tight font-extrabold my-4 lg:!leading-tight">
           Rapidly build your <a href="https://wordpress.org" class="border-b-2 mb-2 border-primary">WordPress</a> theme with
-          <a href="https://tailwindcss.com" class="border-b-2 mb-2 border-primary">Tailwind CSS</a>
-          and
-          <a href="https://laravel-mix.com" class="border-b-2 mb-2 border-primary">Laravel Mix</a>.
+          <a href="https://tailwindcss.com" class="border-b-2 mb-2 border-primary">Tailwind CSS</a>.
         </h2>
 
         <p class="max-w-screen-lg text-gray-700 text-xl lg:text-3xl lg:!leading-relaxed font-light my-10">
@@ -61,7 +59,7 @@
 
             <li class="flex-shrink-0 relative flex mb-8">
               <div class="flex-shrink-0 rounded-full bg-white text-gray-500 flex items-center justify-center mr-4 h-12 w-12 text-lg lg:text-3xl lg:w-16 lg:h-16">3</div>
-              <div class="max-w-[80%]">Now go to the theme directory and watch for changes <code class="bg-gray-800 text-white px-8 py-4 rounded block mt-4">npx mix watch</code></div>
+              <div class="max-w-[80%]">Now go to the theme directory and watch for changes <code class="bg-gray-800 text-white px-8 py-4 rounded block mt-4">npm run watch</code></div>
             </li>
           </ul>
         </div>
@@ -127,7 +125,7 @@
     <footer class="bg-gray-50 text-gray-600">
         <div class="container py-16 mx-auto">
           <div class="text-center pb-12">
-            <span class="text-red-500">♥</span> Huge thank you to <a href="https://wordpress.org/?ref=tailpress.io" class="text-gray-900">WordPress</a>, <a href="https://tailwindcss.com/?ref=tailpress.io" class="text-gray-900">Tailwind CSS</a> and <a href="https://laravel-mix.com/?ref=tailpress.io" class="text-gray-900">Laravel Mix</a> for making this possible!
+            <span class="text-red-500">♥</span> Huge thank you to <a href="https://wordpress.org/?ref=tailpress.io" class="text-gray-900">WordPress</a>, <a href="https://tailwindcss.com/?ref=tailpress.io" class="text-gray-900">Tailwind CSS</a> and <a href="http://esbuild.github.io/?ref=tailpress.io" class="text-gray-900">esbuild</a> for making this possible!
           </div>
 
           <div class="text-center border-t pt-12">
