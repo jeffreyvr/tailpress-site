@@ -13,4 +13,8 @@ mix.options({
     ]
 });
 
-mix.version();
+// if (mix.inProduction()) {
+    mix.version();
+// } else {
+    // Mix.manifest.refresh = _ => void 0
+// }

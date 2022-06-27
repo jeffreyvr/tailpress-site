@@ -2,7 +2,7 @@
 
 function mix($path)
 {
-    $manifest = json_decode(file_get_contents(__DIR__ . '/public/mix-manifest.json'), true);
+    $manifest = json_decode(file_get_contents(__DIR__ . '/../public/mix-manifest.json'), true);
 
     return $manifest[$path] ?? $path;
 }

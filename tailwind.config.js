@@ -1,13 +1,16 @@
 module.exports = {
-  mode: 'jit',
-  purge: [
-    './helpers.php',
-    './public/*.php',
+  content: [
+    './src/helpers.php',
+    './public/index.php',
     './resources/**/*.php'
   ],
   plugins: [require('@tailwindcss/aspect-ratio')],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      'sans': ['Inter', 'ui-sans-serif', 'system-ui'],
+      'mono': ['ui-monospace', 'SFMono-Regular']
+    },
     container: {
       padding: '2rem',
     },
