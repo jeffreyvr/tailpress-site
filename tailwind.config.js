@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'sans': ['Inter', 'ui-sans-serif', 'system-ui'],
-      'mono': ['ui-monospace', 'SFMono-Regular']
+      'mono': ['monospace', 'SFMono-Regular']
     },
     container: {
       padding: '2rem',
