@@ -7,6 +7,9 @@
     <title>TailPress - Rapidly build your WordPress theme with Tailwind CSS</title>
     <meta name="description" content="TailPress is your go-to starting point for developing WordPress themes with Tailwind CSS and comes with basic block-editor support out of the box.">
     <link href="<?php echo mix('/css/styles.css'); ?>" rel="stylesheet" />
+    <!-- Fathom - beautiful, simple website analytics -->
+    <script src="https://cdn.usefathom.com/script.js" data-site="PMECLRXB" defer></script>
+    <!-- / Fathom -->
   </head>
   <body class="text-gray-800 antialiased overflow-x-hidden w-full">
     <div class="bg-cover bg-center" style="background-image:url(images/gradient.jpg);">
