@@ -4,7 +4,7 @@ module.exports = {
     './public/index.php',
     './resources/**/*.php'
   ],
-  plugins: [require('@tailwindcss/aspect-ratio')],
+//   plugins: [require('@tailwindcss/aspect-ratio')],
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {

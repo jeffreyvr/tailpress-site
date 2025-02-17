@@ -3,18 +3,10 @@ let path = require('path');
 
 mix.setPublicPath(path.resolve('./public/'));
 
-mix.postCss("./resources/css/styles.css", "./public/css");
+mix.postCss("./resources/css/styles.css", "./public/css", require('@tailwindcss/postcss'));
 
-mix.options({
-    postCss: [
-        require('postcss-import'),
-        require('tailwindcss'),
-        require('autoprefixer'),
-    ]
-});
-
-// if (mix.inProduction()) {
+if (mix.inProduction()) {
     mix.version();
-// } else {
-    // Mix.manifest.refresh = _ => void 0
-// }
+} else {
+    Mix.manifest.refresh = _ => void 0
+}
