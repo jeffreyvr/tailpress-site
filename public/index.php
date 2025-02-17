@@ -99,7 +99,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
         </svg>
-        Use Esbuild or Laravel Mix for compiling
+        Use Laravel Mix for compiling
       </div>
       <div class="bg-gray-50 px-4 py-3 rounded-full flex items-center">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -151,7 +151,7 @@
     <footer class="bg-gray-50 text-gray-600">
         <div class="container py-16 mx-auto">
           <div class="text-center pb-12">
-            <span class="text-red-500">♥</span> Huge thank you to <a href="https://wordpress.org/?ref=tailpress.io" class="text-gray-900">WordPress</a>, <a href="https://tailwindcss.com/?ref=tailpress.io" class="text-gray-900">Tailwind CSS</a>, <a href="https://laravel-mix.com/?ref=tailpress.io" class="text-gray-900">Laravel Mix</a> and <a href="http://esbuild.github.io/?ref=tailpress.io" class="text-gray-900">esbuild</a> for making this possible!
+            <span class="text-red-500">♥</span> Huge thank you to <a href="https://wordpress.org/?ref=tailpress.io" class="text-gray-900">WordPress</a>, <a href="https://tailwindcss.com/?ref=tailpress.io" class="text-gray-900">Tailwind CSS</a> and <a href="https://laravel-mix.com/?ref=tailpress.io" class="text-gray-900">Laravel Mix</a> for making this possible!
           </div>
 
           <div class="text-center border-t pt-12">
