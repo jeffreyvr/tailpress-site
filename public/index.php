@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TailPress - Rapidly build your WordPress theme with Tailwind CSS</title>
     <meta name="description" content="TailPress is your go-to starting point for developing WordPress themes with Tailwind CSS and comes with basic block-editor support out of the box.">
-    <link href="<?php echo mix('/css/styles.css'); ?>&time=123" rel="stylesheet" />
+    <link href="<?php echo mix('/css/styles.css'); ?>" rel="stylesheet" />
     <!-- Fathom - beautiful, simple website analytics -->
     <script src="https://cdn.usefathom.com/script.js" data-site="PMECLRXB" defer></script>
     <!-- / Fathom -->
