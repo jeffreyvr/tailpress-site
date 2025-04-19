@@ -10,15 +10,18 @@
     <!-- Fathom - beautiful, simple website analytics -->
     <script src="https://cdn.usefathom.com/script.js" data-site="PMECLRXB" defer></script>
     <!-- / Fathom -->
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
   </head>
   <body class="text-zinc-800 antialiased overflow-x-hidden w-full">
     <div class="bg-cover bg-center" style="background-image:url(images/gradient.jpg);">
       <div id="header">
         <div class="container mx-auto">
           <div class="py-8 flex items-center justify-between">
-            <?php svg('logo-100'); ?>
+            <?php svg('logo'); ?>
             <h1 class="hidden">TailPress</h1>
-            <a href="https://github.com/jeffreyvr/tailpress" class="bg-primary hover:bg-[#0e92cd] transition-colors duration-200 font-medium text-lg py-1 px-3 lg:text-xl lg:py-4 lg:px-8 rounded-lg text-white">View on GitHub</a>
+            <a href="https://github.com/tailpress/tailpress" class="bg-primary hover:bg-[#0e92cd] transition-colors duration-200 font-medium text-lg py-1 px-3 lg:text-xl lg:py-4 lg:px-8 rounded-lg text-white">View on GitHub</a>
           </div>
         </div>
       </div>
@@ -36,7 +39,7 @@
 
           <div class="text-center flex justify-center gap-4">
             <a href="#getting-started" class="bg-secondary hover:bg-[#129a8b] transition-colors duration-200 font-medium text-lg py-2 px-4 lg:text-xl lg:py-4 lg:px-8 rounded-lg text-white">Get started</a>
-            <a href="https://github.com/jeffreyvr/tailpress/archive/refs/heads/master.zip" class="bg-zinc-800 hover:bg-zinc-900 transition-colors duration-200 font-medium text-lg py-2 px-4 lg:text-xl lg:py-4 lg:px-8 rounded-lg text-white">Download</a>
+            <a href="https://github.com/tailpress/tailpress/archive/refs/heads/master.zip" class="bg-zinc-800 hover:bg-zinc-900 transition-colors duration-200 font-medium text-lg py-2 px-4 lg:text-xl lg:py-4 lg:px-8 rounded-lg text-white">Download</a>
           </div>
         </div>
       </div>
@@ -50,7 +53,7 @@
           <ul>
             <li class="relative flex mb-8 w-full">
               <div class="shrink-0 rounded-full bg-zinc-50 text-zinc-500 flex items-center justify-center mr-4 h-12 w-12 text-lg lg:text-3xl lg:w-16 lg:h-16">1</div>
-              <div class="max-w-[80%]">Get the installer <code class="break-words bg-zinc-800 text-white px-8 py-4 rounded-sm block mt-4">composer global require jeffreyvanrossum/tailpress-installer</code></div>
+              <div class="max-w-[80%]">Get the installer <code class="break-words bg-zinc-800 text-white px-8 py-4 rounded-sm block mt-4">composer global require tailpress/installer</code></div>
             </li>
 
             <li class="relative flex mb-8">
@@ -60,7 +63,7 @@
                 <div class="mt-4">To set your theme name and initialize a Git repository, use this instead</div>
                 <code class="bg-zinc-800 text-white px-8 py-4 rounded-sm block mt-4">tailpress new example-theme --name="Theme Name" --git</code>
 
-                <div class="mt-4 text-sm text-zinc-600 underline"><a href="https://github.com/jeffreyvr/tailpress/#readme">More installation options.</a></div>
+                <div class="mt-4 text-sm text-zinc-600 underline"><a href="https://github.com/tailpress/tailpress/#readme">More installation options.</a></div>
               </div>
             </li>
 
